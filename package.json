@@ -1,0 +1,27 @@
+{
+  "name": "testing-boilerplate",
+  "version": "0.1.0",
+  "description": "A test environment built with mocha, sinon and chai that works in the browser and in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha suites/all.js"
+  },
+  "repository": "",
+  "keywords": [
+    "mocha",
+    "sinon",
+    "chai",
+    "requirejs",
+    "testing",
+    "test"
+  ],
+  "author": "Xavier Cambar <xcambar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "~1.5.0",
+    "requirejs": "~2.1.4",
+    "sinon-chai": "~2.3.1",
+    "mocha": "~1.8.1",
+    "grunt": "~0.3.17"
+  }
+}
