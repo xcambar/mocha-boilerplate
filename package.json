@@ -1,5 +1,5 @@
 {
-  "name": "testing-boilerplate",
+  "name": "mocha-boilerplate",
   "version": "0.1.0",
   "description": "A test environment built with mocha, sinon and chai that works in the browser and in Node.js",
   "main": "index.js",
