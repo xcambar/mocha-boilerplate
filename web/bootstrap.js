@@ -1,4 +1,4 @@
-/*global require:true, define:true */
+/*global require:true, define:true, suites:true */
 
 require.config({
   // You wil most likely need to adapt the paths accordingly with your environment
@@ -17,7 +17,7 @@ require.config({
 define(['mocha'], function (mocha) {
   'use strict';
   mocha.setup('bdd');
-  require(['./suites/all'], function () {
+  require(suites.map(function (s) { return './suites/' + s; }), function () {
     mocha.run();
   });
 });
