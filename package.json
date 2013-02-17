@@ -4,7 +4,8 @@
   "description": "A test environment built with mocha, sinon and chai that works in the browser and in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha suites/all.js"
+    "test": "./node_modules/mocha/bin/mocha suites/all.js",
+    "test.web": "open ./web/index.html"
   },
   "repository": "",
   "keywords": [
