@@ -1,4 +1,4 @@
-/*global require:true, define:true, suites:true */
+/*global define:true, require:true, suites:true */
 
 require.config({
   // You wil most likely need to adapt the paths accordingly with your environment

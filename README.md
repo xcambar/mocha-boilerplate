@@ -22,7 +22,7 @@ Setup a testing environment with [Mocha][], [chai][] and [sinon-chai][] that wor
 
 ###Node.js
 
-Run `mocha ./suites/` to run all your tests.
+Run `mocha suites/` from your `test` directory to run all your tests.
 
 ### Browser
 
