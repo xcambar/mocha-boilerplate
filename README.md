@@ -1,4 +1,4 @@
-# Testing Boilerplate
+# Mocha Boilerplate
 
 Setup a testing environment with [Mocha][], [chai][] and [sinon-chai][] that works in the browser and in Node.js right from the start.
 
@@ -28,11 +28,11 @@ Run `mocha suites/` from your `test` directory to run all your tests.
 
 1. Edit `web/index.html`.
 2. Change the value of the variable `suites` to specify which suites you want to run.
-    For example, `var suites = ['all'];` will run the tests of the suite defined in `%TESTING_BOILERPLATE_ROOT%/suites/all.js`.
+    For example, `var suites = ['all'];` will run the tests of the suite defined in `%MOCHA_BOILERPLATE_ROOT%/suites/all.js`.
 3. Open index.html in a browser. `testing-boilerplate` has been made to run your tests both with and without a server.
 
 [Mocha]: http://visionmedia.github.com/mocha/
 [chai]: http://chaijs.com/
-[sinon-chai]: #
-[Download]: #
+[sinon-chai]: https://github.com/domenic/sinon-chai
+[Download]: https://github.com/xcambar/mocha-boilerplate/archive/master.zip
 
