@@ -1,12 +1,11 @@
 /*global define:true */
-/*jshint node:true */
 (function () {
   "use strict";
   var args = Array.prototype.slice.apply(arguments), factory = args.pop(), deps = args;
   if (typeof exports !== 'undefined' && typeof require === 'function') { // Node.js
     if (typeof factory === 'function') {
-      exports = factory.apply(undefined, deps.map(require));
-    } else { deps.concat(factory).map(require); }
+      module.exports = factory.apply(undefined, deps.map(require));
+    } else { module.exports = deps.concat(factory).map(require); }
   } else if (typeof define === 'function' && define.amd) { // AMD
     if (typeof factory === 'function') {
       return define(deps, factory);
